@@ -1,0 +1,9 @@
+  <button on-click="up()">UP</button>
+  <button on-click="down()">DOWN</button>
+  {{counter}}
+  <div class="blocks" *ngFor="let e of blocks">
+    <button class="block" style="background-color: {{e.color}}" on-click="down1(e)"></button>
+  </div>
+  <app-header></app-header>
+  <router-outlet/>
+

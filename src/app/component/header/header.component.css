@@ -1,0 +1,14 @@
+.name{
+   text-align: center;
+   
+}
+
+menu{
+   border-bottom: solid 1px black;
+   display: flex;
+}
+
+button{
+   width: 100%;
+   background-color: aqua;
+}

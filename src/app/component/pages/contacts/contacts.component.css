@@ -1,0 +1,25 @@
+.line{
+   width: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+
+input{
+   margin: 10px;
+}
+
+.message{
+   width: 300px;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+}
+
+textarea{
+   margin: 10px;
+}
+
+button{
+   width: 100px;
+}
